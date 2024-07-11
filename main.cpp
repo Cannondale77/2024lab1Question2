@@ -13,7 +13,7 @@ int main()
 {
     printf("finbonachi series: %d, %d,\r\n", t_1, t_2);
     for(int i=0; i<max_terms; i++){
-        next_term =t_1 + t_2;
+        next_term = t_1 + t_2;
         printf("%d, ", next_term);
     
 
